@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA9B0371D02EE8E00395EC4 /* MiBand.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B0361D02EE8E00395EC4 /* MiBand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAA9B0421D02F1CE00395EC4 /* MBCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B03E1D02F1CE00395EC4 /* MBCentralManager.h */; };
+		FAA9B0431D02F1CE00395EC4 /* MBCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B03F1D02F1CE00395EC4 /* MBCentralManager.m */; };
+		FAA9B0441D02F1CE00395EC4 /* MBPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B0401D02F1CE00395EC4 /* MBPeripheral.h */; };
+		FAA9B0451D02F1CE00395EC4 /* MBPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B0411D02F1CE00395EC4 /* MBPeripheral.m */; };
+		FAA9B0531D02F21000395EC4 /* MBActivityDataReader.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B0491D02F21000395EC4 /* MBActivityDataReader.h */; };
+		FAA9B0541D02F21000395EC4 /* MBActivityDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B04A1D02F21000395EC4 /* MBActivityDataReader.m */; };
+		FAA9B0551D02F21000395EC4 /* MBCategorys.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B04B1D02F21000395EC4 /* MBCategorys.h */; };
+		FAA9B0561D02F21000395EC4 /* MBCategorys.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B04C1D02F21000395EC4 /* MBCategorys.m */; };
+		FAA9B0571D02F21000395EC4 /* MBDataBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B04D1D02F21000395EC4 /* MBDataBuilder.h */; };
+		FAA9B0581D02F21000395EC4 /* MBDataBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B04E1D02F21000395EC4 /* MBDataBuilder.m */; };
+		FAA9B0591D02F21000395EC4 /* MBDataReader.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B04F1D02F21000395EC4 /* MBDataReader.h */; };
+		FAA9B05A1D02F21000395EC4 /* MBDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B0501D02F21000395EC4 /* MBDataReader.m */; };
+		FAA9B05B1D02F21000395EC4 /* MBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B0511D02F21000395EC4 /* MBHelper.h */; };
+		FAA9B05C1D02F21000395EC4 /* MBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B0521D02F21000395EC4 /* MBHelper.m */; };
+		FAA9B06F1D02F21C00395EC4 /* MBActivityDataFragmentModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B05D1D02F21C00395EC4 /* MBActivityDataFragmentModel.h */; };
+		FAA9B0701D02F21C00395EC4 /* MBActivityDataFragmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B05E1D02F21C00395EC4 /* MBActivityDataFragmentModel.m */; };
+		FAA9B0711D02F21C00395EC4 /* MBActivityDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B05F1D02F21C00395EC4 /* MBActivityDataModel.h */; };
+		FAA9B0721D02F21C00395EC4 /* MBActivityDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B0601D02F21C00395EC4 /* MBActivityDataModel.m */; };
+		FAA9B0731D02F21C00395EC4 /* MBAlarmClockModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B0611D02F21C00395EC4 /* MBAlarmClockModel.h */; };
+		FAA9B0741D02F21C00395EC4 /* MBAlarmClockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B0621D02F21C00395EC4 /* MBAlarmClockModel.m */; };
+		FAA9B0751D02F21C00395EC4 /* MBBatteryInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B0631D02F21C00395EC4 /* MBBatteryInfoModel.h */; };
+		FAA9B0761D02F21C00395EC4 /* MBBatteryInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B0641D02F21C00395EC4 /* MBBatteryInfoModel.m */; };
+		FAA9B0771D02F21C00395EC4 /* MBDateTimeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B0651D02F21C00395EC4 /* MBDateTimeModel.h */; };
+		FAA9B0781D02F21C00395EC4 /* MBDateTimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B0661D02F21C00395EC4 /* MBDateTimeModel.m */; };
+		FAA9B0791D02F21C00395EC4 /* MBDeviceInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B0671D02F21C00395EC4 /* MBDeviceInfoModel.h */; };
+		FAA9B07A1D02F21C00395EC4 /* MBDeviceInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B0681D02F21C00395EC4 /* MBDeviceInfoModel.m */; };
+		FAA9B07B1D02F21C00395EC4 /* MBLEParamsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B0691D02F21C00395EC4 /* MBLEParamsModel.h */; };
+		FAA9B07C1D02F21C00395EC4 /* MBLEParamsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B06A1D02F21C00395EC4 /* MBLEParamsModel.m */; };
+		FAA9B07D1D02F21C00395EC4 /* MBStatisticsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B06B1D02F21C00395EC4 /* MBStatisticsModel.h */; };
+		FAA9B07E1D02F21C00395EC4 /* MBStatisticsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B06C1D02F21C00395EC4 /* MBStatisticsModel.m */; };
+		FAA9B07F1D02F21C00395EC4 /* MBUserInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA9B06D1D02F21C00395EC4 /* MBUserInfoModel.h */; };
+		FAA9B0801D02F21C00395EC4 /* MBUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9B06E1D02F21C00395EC4 /* MBUserInfoModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAA9B0331D02EE8E00395EC4 /* MiBand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiBand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA9B0361D02EE8E00395EC4 /* MiBand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiBand.h; sourceTree = "<group>"; };
+		FAA9B0381D02EE8E00395EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA9B03E1D02F1CE00395EC4 /* MBCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCentralManager.h; sourceTree = "<group>"; };
+		FAA9B03F1D02F1CE00395EC4 /* MBCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCentralManager.m; sourceTree = "<group>"; };
+		FAA9B0401D02F1CE00395EC4 /* MBPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPeripheral.h; sourceTree = "<group>"; };
+		FAA9B0411D02F1CE00395EC4 /* MBPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPeripheral.m; sourceTree = "<group>"; };
+		FAA9B0491D02F21000395EC4 /* MBActivityDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBActivityDataReader.h; sourceTree = "<group>"; };
+		FAA9B04A1D02F21000395EC4 /* MBActivityDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBActivityDataReader.m; sourceTree = "<group>"; };
+		FAA9B04B1D02F21000395EC4 /* MBCategorys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCategorys.h; sourceTree = "<group>"; };
+		FAA9B04C1D02F21000395EC4 /* MBCategorys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCategorys.m; sourceTree = "<group>"; };
+		FAA9B04D1D02F21000395EC4 /* MBDataBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDataBuilder.h; sourceTree = "<group>"; };
+		FAA9B04E1D02F21000395EC4 /* MBDataBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDataBuilder.m; sourceTree = "<group>"; };
+		FAA9B04F1D02F21000395EC4 /* MBDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDataReader.h; sourceTree = "<group>"; };
+		FAA9B0501D02F21000395EC4 /* MBDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDataReader.m; sourceTree = "<group>"; };
+		FAA9B0511D02F21000395EC4 /* MBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBHelper.h; sourceTree = "<group>"; };
+		FAA9B0521D02F21000395EC4 /* MBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBHelper.m; sourceTree = "<group>"; };
+		FAA9B05D1D02F21C00395EC4 /* MBActivityDataFragmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBActivityDataFragmentModel.h; sourceTree = "<group>"; };
+		FAA9B05E1D02F21C00395EC4 /* MBActivityDataFragmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBActivityDataFragmentModel.m; sourceTree = "<group>"; };
+		FAA9B05F1D02F21C00395EC4 /* MBActivityDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBActivityDataModel.h; sourceTree = "<group>"; };
+		FAA9B0601D02F21C00395EC4 /* MBActivityDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBActivityDataModel.m; sourceTree = "<group>"; };
+		FAA9B0611D02F21C00395EC4 /* MBAlarmClockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlarmClockModel.h; sourceTree = "<group>"; };
+		FAA9B0621D02F21C00395EC4 /* MBAlarmClockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlarmClockModel.m; sourceTree = "<group>"; };
+		FAA9B0631D02F21C00395EC4 /* MBBatteryInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBBatteryInfoModel.h; sourceTree = "<group>"; };
+		FAA9B0641D02F21C00395EC4 /* MBBatteryInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBBatteryInfoModel.m; sourceTree = "<group>"; };
+		FAA9B0651D02F21C00395EC4 /* MBDateTimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDateTimeModel.h; sourceTree = "<group>"; };
+		FAA9B0661D02F21C00395EC4 /* MBDateTimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDateTimeModel.m; sourceTree = "<group>"; };
+		FAA9B0671D02F21C00395EC4 /* MBDeviceInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDeviceInfoModel.h; sourceTree = "<group>"; };
+		FAA9B0681D02F21C00395EC4 /* MBDeviceInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDeviceInfoModel.m; sourceTree = "<group>"; };
+		FAA9B0691D02F21C00395EC4 /* MBLEParamsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLEParamsModel.h; sourceTree = "<group>"; };
+		FAA9B06A1D02F21C00395EC4 /* MBLEParamsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLEParamsModel.m; sourceTree = "<group>"; };
+		FAA9B06B1D02F21C00395EC4 /* MBStatisticsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBStatisticsModel.h; sourceTree = "<group>"; };
+		FAA9B06C1D02F21C00395EC4 /* MBStatisticsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBStatisticsModel.m; sourceTree = "<group>"; };
+		FAA9B06D1D02F21C00395EC4 /* MBUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBUserInfoModel.h; sourceTree = "<group>"; };
+		FAA9B06E1D02F21C00395EC4 /* MBUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBUserInfoModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA9B02F1D02EE8E00395EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA9B0291D02EE8E00395EC4 = {
+			isa = PBXGroup;
+			children = (
+				FAA9B0351D02EE8E00395EC4 /* MiBand */,
+				FAA9B0341D02EE8E00395EC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA9B0341D02EE8E00395EC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9B0331D02EE8E00395EC4 /* MiBand.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA9B0351D02EE8E00395EC4 /* MiBand */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9B0481D02F1FB00395EC4 /* Utils */,
+				FAA9B0471D02F1E200395EC4 /* Models */,
+				FAA9B0461D02F1D900395EC4 /* Includes */,
+				FAA9B0361D02EE8E00395EC4 /* MiBand.h */,
+				FAA9B0381D02EE8E00395EC4 /* Info.plist */,
+			);
+			path = MiBand;
+			sourceTree = "<group>";
+		};
+		FAA9B0461D02F1D900395EC4 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9B03E1D02F1CE00395EC4 /* MBCentralManager.h */,
+				FAA9B03F1D02F1CE00395EC4 /* MBCentralManager.m */,
+				FAA9B0401D02F1CE00395EC4 /* MBPeripheral.h */,
+				FAA9B0411D02F1CE00395EC4 /* MBPeripheral.m */,
+			);
+			name = Includes;
+			sourceTree = "<group>";
+		};
+		FAA9B0471D02F1E200395EC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9B05D1D02F21C00395EC4 /* MBActivityDataFragmentModel.h */,
+				FAA9B05E1D02F21C00395EC4 /* MBActivityDataFragmentModel.m */,
+				FAA9B05F1D02F21C00395EC4 /* MBActivityDataModel.h */,
+				FAA9B0601D02F21C00395EC4 /* MBActivityDataModel.m */,
+				FAA9B0611D02F21C00395EC4 /* MBAlarmClockModel.h */,
+				FAA9B0621D02F21C00395EC4 /* MBAlarmClockModel.m */,
+				FAA9B0631D02F21C00395EC4 /* MBBatteryInfoModel.h */,
+				FAA9B0641D02F21C00395EC4 /* MBBatteryInfoModel.m */,
+				FAA9B0651D02F21C00395EC4 /* MBDateTimeModel.h */,
+				FAA9B0661D02F21C00395EC4 /* MBDateTimeModel.m */,
+				FAA9B0671D02F21C00395EC4 /* MBDeviceInfoModel.h */,
+				FAA9B0681D02F21C00395EC4 /* MBDeviceInfoModel.m */,
+				FAA9B0691D02F21C00395EC4 /* MBLEParamsModel.h */,
+				FAA9B06A1D02F21C00395EC4 /* MBLEParamsModel.m */,
+				FAA9B06B1D02F21C00395EC4 /* MBStatisticsModel.h */,
+				FAA9B06C1D02F21C00395EC4 /* MBStatisticsModel.m */,
+				FAA9B06D1D02F21C00395EC4 /* MBUserInfoModel.h */,
+				FAA9B06E1D02F21C00395EC4 /* MBUserInfoModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FAA9B0481D02F1FB00395EC4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9B0491D02F21000395EC4 /* MBActivityDataReader.h */,
+				FAA9B04A1D02F21000395EC4 /* MBActivityDataReader.m */,
+				FAA9B04B1D02F21000395EC4 /* MBCategorys.h */,
+				FAA9B04C1D02F21000395EC4 /* MBCategorys.m */,
+				FAA9B04D1D02F21000395EC4 /* MBDataBuilder.h */,
+				FAA9B04E1D02F21000395EC4 /* MBDataBuilder.m */,
+				FAA9B04F1D02F21000395EC4 /* MBDataReader.h */,
+				FAA9B0501D02F21000395EC4 /* MBDataReader.m */,
+				FAA9B0511D02F21000395EC4 /* MBHelper.h */,
+				FAA9B0521D02F21000395EC4 /* MBHelper.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FAA9B0301D02EE8E00395EC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA9B07B1D02F21C00395EC4 /* MBLEParamsModel.h in Headers */,
+				FAA9B0371D02EE8E00395EC4 /* MiBand.h in Headers */,
+				FAA9B0751D02F21C00395EC4 /* MBBatteryInfoModel.h in Headers */,
+				FAA9B0731D02F21C00395EC4 /* MBAlarmClockModel.h in Headers */,
+				FAA9B07D1D02F21C00395EC4 /* MBStatisticsModel.h in Headers */,
+				FAA9B06F1D02F21C00395EC4 /* MBActivityDataFragmentModel.h in Headers */,
+				FAA9B0531D02F21000395EC4 /* MBActivityDataReader.h in Headers */,
+				FAA9B0421D02F1CE00395EC4 /* MBCentralManager.h in Headers */,
+				FAA9B0711D02F21C00395EC4 /* MBActivityDataModel.h in Headers */,
+				FAA9B0591D02F21000395EC4 /* MBDataReader.h in Headers */,
+				FAA9B0771D02F21C00395EC4 /* MBDateTimeModel.h in Headers */,
+				FAA9B0441D02F1CE00395EC4 /* MBPeripheral.h in Headers */,
+				FAA9B0551D02F21000395EC4 /* MBCategorys.h in Headers */,
+				FAA9B0791D02F21C00395EC4 /* MBDeviceInfoModel.h in Headers */,
+				FAA9B07F1D02F21C00395EC4 /* MBUserInfoModel.h in Headers */,
+				FAA9B0571D02F21000395EC4 /* MBDataBuilder.h in Headers */,
+				FAA9B05B1D02F21000395EC4 /* MBHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FAA9B0321D02EE8E00395EC4 /* MiBand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA9B03B1D02EE8E00395EC4 /* Build configuration list for PBXNativeTarget "MiBand" */;
+			buildPhases = (
+				FAA9B02E1D02EE8E00395EC4 /* Sources */,
+				FAA9B02F1D02EE8E00395EC4 /* Frameworks */,
+				FAA9B0301D02EE8E00395EC4 /* Headers */,
+				FAA9B0311D02EE8E00395EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiBand;
+			productName = MiBand;
+			productReference = FAA9B0331D02EE8E00395EC4 /* MiBand.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA9B02A1D02EE8E00395EC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alexander Baturin";
+				TargetAttributes = {
+					FAA9B0321D02EE8E00395EC4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FAA9B02D1D02EE8E00395EC4 /* Build configuration list for PBXProject "MiBand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAA9B0291D02EE8E00395EC4;
+			productRefGroup = FAA9B0341D02EE8E00395EC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA9B0321D02EE8E00395EC4 /* MiBand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA9B0311D02EE8E00395EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA9B02E1D02EE8E00395EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA9B0561D02F21000395EC4 /* MBCategorys.m in Sources */,
+				FAA9B05C1D02F21000395EC4 /* MBHelper.m in Sources */,
+				FAA9B0451D02F1CE00395EC4 /* MBPeripheral.m in Sources */,
+				FAA9B0741D02F21C00395EC4 /* MBAlarmClockModel.m in Sources */,
+				FAA9B0701D02F21C00395EC4 /* MBActivityDataFragmentModel.m in Sources */,
+				FAA9B07E1D02F21C00395EC4 /* MBStatisticsModel.m in Sources */,
+				FAA9B0781D02F21C00395EC4 /* MBDateTimeModel.m in Sources */,
+				FAA9B0801D02F21C00395EC4 /* MBUserInfoModel.m in Sources */,
+				FAA9B07A1D02F21C00395EC4 /* MBDeviceInfoModel.m in Sources */,
+				FAA9B0431D02F1CE00395EC4 /* MBCentralManager.m in Sources */,
+				FAA9B05A1D02F21000395EC4 /* MBDataReader.m in Sources */,
+				FAA9B0581D02F21000395EC4 /* MBDataBuilder.m in Sources */,
+				FAA9B0721D02F21C00395EC4 /* MBActivityDataModel.m in Sources */,
+				FAA9B07C1D02F21C00395EC4 /* MBLEParamsModel.m in Sources */,
+				FAA9B0761D02F21C00395EC4 /* MBBatteryInfoModel.m in Sources */,
+				FAA9B0541D02F21000395EC4 /* MBActivityDataReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAA9B0391D02EE8E00395EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAA9B03A1D02EE8E00395EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAA9B03C1D02EE8E00395EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MiBand/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quad-lab.MiBand";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FAA9B03D1D02EE8E00395EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MiBand/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quad-lab.MiBand";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA9B02D1D02EE8E00395EC4 /* Build configuration list for PBXProject "MiBand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA9B0391D02EE8E00395EC4 /* Debug */,
+				FAA9B03A1D02EE8E00395EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA9B03B1D02EE8E00395EC4 /* Build configuration list for PBXNativeTarget "MiBand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA9B03C1D02EE8E00395EC4 /* Debug */,
+				FAA9B03D1D02EE8E00395EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA9B02A1D02EE8E00395EC4 /* Project object */;
+}
